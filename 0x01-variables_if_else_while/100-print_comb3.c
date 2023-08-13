@@ -1,8 +1,6 @@
 #include <stdio.h>
 /**
- * main - printing combinations of two digit seperated by , and spa
-ce
- *
+ * main - printing combinations of two digit seperated by , and space
  * Return: always (0)
  *
  */
