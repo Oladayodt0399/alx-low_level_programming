@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
-* rev_string - reverse array
+* *infinite_add - reverse array
 * @n: integer params
 * Return: 0
 */
 
-void rev_string(char *n)
+char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
 int i = 0;
 int j = 0;
