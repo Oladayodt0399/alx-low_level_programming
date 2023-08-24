@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	int n = 0;
+	int n;
 	int a[5];
 	int *p;
 
@@ -19,8 +19,7 @@ int main(void)
  * - only one statement
  * - you are not allowed to code anything else than this line of code
  */
-	n = 0;
-	*(p + 5) = 98;
+	*(p + 5 - sizeof(int) / sizeof(*p)) = 98;
 /* ...so that this prints 98\n */
 	printf("a[2] = %d\n", a[2]);
 	return (0);
