@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * memset - function that allocates memory for an array, using malloc
+ * _memset - function that allocates memory for an array, using malloc
  * @s: memory area to fill
  * @b: char to copy
  * @n: num of times to copy b
